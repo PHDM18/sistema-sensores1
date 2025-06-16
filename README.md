@@ -1,6 +1,6 @@
 # sistema-sensores1
 
-# Sistema de Monitoramento de Sensores Industriais
+# Sistema de Sensores Industriais
 
 Este projeto contém três programas C para gerenciar leituras de sensores industriais.
 
@@ -28,8 +28,8 @@ Gera um arquivo de texto com leituras aleatórias de sensores para testes.
 **Tipos de dados suportados:**
 -   `CONJ_Z`: Inteiro
 -   `CONJ_Q`: Float
--   `TEXTO`: String (código de até 16 letras)
--   `BINARIO`: Booleano (true/false)
+-   `TEXTO`: String 
+-   `BINARIO`: Booleano 
 
 Para cada sensor, são geradas 2000 leituras com timestamps aleatórios dentro do intervalo fornecido.
 
@@ -37,7 +37,7 @@ Para cada sensor, são geradas 2000 leituras com timestamps aleatórios dentro d
 
 **Exemplo:** `./gerar 1 1 2023 31 12 2023 temp CONJ_Z pressao CONJ_Q`
 
-## Como compilar
+## Como compilar o codigo
 
 Use `gcc`:
 
